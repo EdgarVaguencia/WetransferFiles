@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<style>
+			input{
+				display: block;
+				width: 600px
+			}
+		</style>
+	</head>
+	<body>
+		<form action="" method="POST">
+			{% csrf_token %}
+			<input type="text" name="link">
+			<button>Send</button>
+		</form>
+	</body>
+</html>
